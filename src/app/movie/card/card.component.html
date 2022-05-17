@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-title>
+        {{movie?.title}}
+    </mat-card-title>
+    <mat-card-subtitle>
+        {{movie?.actors}}
+    </mat-card-subtitle>
+    <img mat-card-image [src]="movie?.posterUrl" [alt]="movie?.title">
+    <mat-card-content>
+        <p>
+         {{movie?.plot}}
+        </p>
+        <p>
+            {{movie?.genres | textArray}}
+        </p>
+        <p class="font-size-small">Directed by {{movie?.director}}, released in {{movie?.year}}. {{movie?.runtime}} minutes.</p>
+      </mat-card-content>
+</mat-card>

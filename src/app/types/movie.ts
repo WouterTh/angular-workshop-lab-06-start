@@ -6,7 +6,7 @@ export interface Movie {
     runtime: number,
     genres: string[],
     director: string,
-    actors: string[],
-    plot: string[],
-    posterUrl: string[]
+    actors: string,
+    plot: string,
+    posterUrl: string
 }

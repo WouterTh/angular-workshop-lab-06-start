@@ -1,0 +1,18 @@
+<mat-card>
+    <mat-card-title>
+        {{book?.title}}
+    </mat-card-title>
+    <mat-card-subtitle>
+        {{book?.authors | textArray}}
+    </mat-card-subtitle>
+    <img mat-card-image [src]="book?.thumbnailUrl" [alt]="book?.title">
+    <mat-card-content>
+        <p>
+            {{book?.shortDescription}}
+        </p>
+        <p>
+            {{book?.categories | textArray}}
+        </p>
+        <p class="font-size-small">Published in {{book?.published | date: 'YYYY'}}. {{book?.pageCount}} pages.</p>
+    </mat-card-content>
+</mat-card>

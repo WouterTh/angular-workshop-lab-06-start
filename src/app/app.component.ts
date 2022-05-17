@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { data } from './data';
+import { Book, Movie } from './types';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'angular-workshop-lab-02-start';
+export class AppComponent implements OnInit {
+
+  items: (Book | Movie)[] = [];
+
+  ngOnInit(): void {
+    this.items = data.slice(0, 10) as (Book | Movie)[];
+  }
 }

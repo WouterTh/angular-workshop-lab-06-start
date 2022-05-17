@@ -1,4 +1,4 @@
-const data = [{
+export const data = [{
     type: "movie",
     id: 1,
     title: "Beetlejuice",
@@ -12,6 +12,36 @@ const data = [{
     actors: "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
     plot: "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
     posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
+},
+{
+    type: "book",
+    title: "Making Sense of Java",
+    isbn: "132632942",
+    pageCount: 180,
+    published: "1996-06-01T00:00:00.000-0700",
+    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/simpson.jpg",
+    shortDescription: "Making Sense of Java clearly and concisely explains the concepts, features, benefits, potential, and limitations of Java.",
+    longDescription: "The meteoric rise of interest in Java, and the simultaneous rise in Java-related hype, make this book's no-nonsense evaluation essential reading for all levels of professionals, from managers to programmers. Making Sense of Java clearly and concisely explains the concepts, features, benefits, potential, and limitations of Java. It is not a programmer's how-to guide and assumes little technical knowledge, though software developers will find this lucid overview to be a valuable introduction to the possible uses and capabilities of Java.",
+    status: "PUBLISH",
+    authors: [
+        "Bruce Simpson",
+        "John Mitchell",
+        "Brian Christeson",
+        "Rehan Zaidi",
+        "",
+        "Jonathan Levine"
+    ],
+    categories: ["Java", "Business"]
+},
+{
+    type: "book",
+    title: "Learn Git in a Month of Lunches",
+    isbn: "1617292419",
+    pageCount: 0,
+    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/umali.jpg",
+    status: "MEAP",
+    authors: ["Rick Umali"],
+    categories: []
 },
 {
     type: "movie",
@@ -28,6 +58,16 @@ const data = [{
     actors: "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
     plot: "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
     posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5ODAyNzA4OV5BMl5BanBnXkFtZTcwNzYwNTIzNA@@._V1_SX300.jpg"
+},
+{
+    type: "book",
+    title: "Multimedia Computing",
+    isbn: "020152029X",
+    pageCount: 0,
+    published: "1993-09-01T00:00:00.000-0700",
+    status: "PUBLISH",
+    authors: ["Matthew E. Hodges"],
+    categories: []
 },
 {
     type: "movie",
@@ -58,6 +98,16 @@ const data = [{
     actors: "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
     plot: "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
     posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0MTU1MTg4NF5BMl5BanBnXkFtZTgwMDgzNzYxMTE@._V1_SX300.jpg"
+},
+{
+    type: "book",
+    title: "Oculus Rift in Action",
+    isbn: "1617292192",
+    pageCount: 0,
+    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bdavis.jpg",
+    status: "MEAP",
+    authors: ["Bradley Austin Davis", "Karen Bryla", "", "Alex Benton"],
+    categories: []
 },
 {
     type: "movie",
@@ -5295,26 +5345,6 @@ const data = [{
 },
 {
     type: "book",
-    title: "Making Sense of Java",
-    isbn: "132632942",
-    pageCount: 180,
-    published: "1996-06-01T00:00:00.000-0700",
-    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/simpson.jpg",
-    shortDescription: "Making Sense of Java clearly and concisely explains the concepts, features, benefits, potential, and limitations of Java.",
-    longDescription: "The meteoric rise of interest in Java, and the simultaneous rise in Java-related hype, make this book's no-nonsense evaluation essential reading for all levels of professionals, from managers to programmers. Making Sense of Java clearly and concisely explains the concepts, features, benefits, potential, and limitations of Java. It is not a programmer's how-to guide and assumes little technical knowledge, though software developers will find this lucid overview to be a valuable introduction to the possible uses and capabilities of Java.",
-    status: "PUBLISH",
-    authors: [
-        "Bruce Simpson",
-        "John Mitchell",
-        "Brian Christeson",
-        "Rehan Zaidi",
-        "",
-        "Jonathan Levine"
-    ],
-    categories: ["Java", "Business"]
-},
-{
-    type: "book",
     title: "C++/CLI in Action",
     isbn: "1932394818",
     pageCount: 416,
@@ -5848,16 +5878,6 @@ const data = [{
     thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/vinegar.jpg",
     status: "PUBLISH",
     authors: ["Ben Vinegar", "Anton Kovalyov"],
-    categories: []
-},
-{
-    type: "book",
-    title: "Multimedia Computing",
-    isbn: "020152029X",
-    pageCount: 0,
-    published: "1993-09-01T00:00:00.000-0700",
-    status: "PUBLISH",
-    authors: ["Matthew E. Hodges"],
     categories: []
 },
 {
@@ -7051,16 +7071,6 @@ const data = [{
 },
 {
     type: "book",
-    title: "Oculus Rift in Action",
-    isbn: "1617292192",
-    pageCount: 0,
-    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bdavis.jpg",
-    status: "MEAP",
-    authors: ["Bradley Austin Davis", "Karen Bryla", "", "Alex Benton"],
-    categories: []
-},
-{
-    type: "book",
     title: "OpenStack in Action",
     isbn: "1617292168",
     pageCount: 0,
@@ -7107,16 +7117,6 @@ const data = [{
     thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hahn.jpg",
     status: "MEAP",
     authors: ["Evan M. Hahn"],
-    categories: []
-},
-{
-    type: "book",
-    title: "Learn Git in a Month of Lunches",
-    isbn: "1617292419",
-    pageCount: 0,
-    thumbnailUrl: "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/umali.jpg",
-    status: "MEAP",
-    authors: ["Rick Umali"],
     categories: []
 },
 {

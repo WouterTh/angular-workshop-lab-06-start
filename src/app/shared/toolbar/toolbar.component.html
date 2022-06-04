@@ -1,5 +1,5 @@
 <mat-toolbar color="primary">
     <span>My Application</span>
-    <button mat-button routerLink="/books">Books</button>
-    <button mat-button routerLink="/movies">Movies</button>
+    <button mat-button routerLink="/books" [queryParams]="{ maxItems: 12 }">Books</button>
+    <button mat-button routerLink="/movies" [queryParams]="{ maxItems: 12 }">Movies</button>
 </mat-toolbar>

@@ -9,7 +9,7 @@ const routes: Routes = [{
   loadChildren: () => import('./movie/list/list.module').then(m => m.ListModule)
 }, {
   path: '',
-  redirectTo: '/books',
+  redirectTo: '/books?maxItems=12',
   pathMatch: 'full'
 }];
 

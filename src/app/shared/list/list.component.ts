@@ -1,4 +1,3 @@
-import { data } from 'src/app/data';
 import { Book } from 'src/app/types/book';
 import { Movie } from 'src/app/types/movie';
 

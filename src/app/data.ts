@@ -153,21 +153,7 @@ export const data = [{
     plot: "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
     posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
 },
-{
-    type: "movie",
-    id: 12,
-    title: "Taxi Driver",
-    year: "1976",
-    runtime: "113",
-    genres: [
-        "Crime",
-        "Drama"
-    ],
-    director: "Martin Scorsese",
-    actors: "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
-    plot: "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
-    posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-},
+
 {
     type: "movie",
     id: 13,
@@ -183,54 +169,6 @@ export const data = [{
     actors: "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
     plot: "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
     posterUrl: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX300.jpg"
-},
-{
-    type: "movie",
-    id: 14,
-    title: "Planet 51",
-    year: "2009",
-    runtime: "91",
-    genres: [
-        "Animation",
-        "Adventure",
-        "Comedy"
-    ],
-    director: "Jorge Blanco, Javier Abad, Marcos Martínez",
-    actors: "Jessica Biel, John Cleese, Gary Oldman, Dwayne Johnson",
-    plot: "An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.",
-    posterUrl: "http://ia.media-imdb.com/images/M/MV5BMTUyOTAyNTA5Ml5BMl5BanBnXkFtZTcwODU2OTM0Mg@@._V1_SX300.jpg"
-},
-{
-    type: "movie",
-    id: 15,
-    title: "Looper",
-    year: "2012",
-    runtime: "119",
-    genres: [
-        "Action",
-        "Crime",
-        "Drama"
-    ],
-    director: "Rian Johnson",
-    actors: "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano",
-    plot: "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
-    posterUrl: "http://ia.media-imdb.com/images/M/MV5BMTY3NTY0MjEwNV5BMl5BanBnXkFtZTcwNTE3NDA1OA@@._V1_SX300.jpg"
-},
-{
-    type: "movie",
-    id: 16,
-    title: "Corpse Bride",
-    year: "2005",
-    runtime: "77",
-    genres: [
-        "Animation",
-        "Drama",
-        "Family"
-    ],
-    director: "Tim Burton, Mike Johnson",
-    actors: "Johnny Depp, Helena Bonham Carter, Emily Watson, Tracey Ullman",
-    plot: "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
-    posterUrl: "http://ia.media-imdb.com/images/M/MV5BMTk1MTY1NjU4MF5BMl5BanBnXkFtZTcwNjIzMTEzMw@@._V1_SX300.jpg"
 },
 {
     type: "movie",

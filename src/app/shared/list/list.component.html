@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="selected" *ngIf="selected">
+        You selected: {{selected.title}}
+    </div>
+    <div class="card-container" *ngFor="let item of items">
+        <app-shared-card [item]="item" (select)="select($event)"></app-shared-card>
+    </div>
+</div>
